@@ -5,6 +5,7 @@
     <script type="text/javascript">
       function sum()
       {
+          //aとbが文字列で引き出されているので、数字に変換するようにした 
           var a = parseFloat(form.a.value);
           var b = parseFloat(form.b.value);
           form.c.value = a + b;
